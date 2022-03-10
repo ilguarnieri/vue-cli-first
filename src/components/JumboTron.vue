@@ -1,7 +1,8 @@
 <template>
   <div class="jumbo">
-    <img src="https://picsum.photos/1000/500" alt="lorem">
-    <h2 class="jumbo-title">Lorem ipsum</h2>
+    <div  class="jumbo-title">
+      <h2>Lorem ipsum</h2>
+    </div>
   </div>
 </template>
 
@@ -14,16 +15,27 @@ export default {
 
 <style scoped lang="scss">
 .jumbo{
-  border-radius: 20px;
-  overflow: hidden;
+  max-width: 1440px;
+  height: 400px;
+  margin: 0 auto;
   position: relative;
+  background-image: url('https://picsum.photos/1200/500');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
 }
 
 .jumbo-title{
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.4);
   color: white;
+  padding: 20px 50px;
+  white-space: nowrap;
+  border-radius: 8px;
 }
 
 </style>

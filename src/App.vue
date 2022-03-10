@@ -23,21 +23,13 @@ export default {
   box-sizing: border-box;
 }
 
-img{
-  max-width: 100%;
-  display: block;
-}
-
 body{
   background-color: #4e6f9e;
-  padding: 10px;
   user-select: none;
+  padding: 10px;
 }
 
 #app{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
