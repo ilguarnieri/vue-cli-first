@@ -1,28 +1,49 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>La mia prima app con Vue CLI!</h1>
+    <JumboTron />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import JumboTron from './components/JumboTron.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JumboTron
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+body{
+  background-color: #4e6f9e;
+  padding: 10px;
+  user-select: none;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+h1{
+  color: #FFA208;
+  padding: 30px;
+  font-size: 40px;
 }
 </style>

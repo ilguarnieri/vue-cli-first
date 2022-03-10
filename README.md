@@ -1,24 +1,24 @@
-# vue-cli-first
+<h1 align="center" title="Unicode Formatter">𝙫𝙪𝙚-𝙘𝙡𝙞-𝙛𝙞𝙧𝙨𝙩</h1>
 
-## Project setup
+<p align="center">
+Mʏ ꜰɪʀꜱᴛ ᴀᴩᴩ ᴡɪᴛʜ ᴠᴜᴇ ᴄʟɪ!
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/github/languages/top/ilguarnieri/vue-cli-first">
+</p>
+
+## 🖥️ Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## 🔥 Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## ⚡ Compiles and minifies for production
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
