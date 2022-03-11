@@ -37,5 +37,4 @@ export default {
   white-space: nowrap;
   border-radius: 8px;
 }
-
 </style>
