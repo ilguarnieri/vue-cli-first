@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <h1>La mia prima app con Vue CLI!</h1>
-    <JumboTron />
+    <MyTitle />
+    <MyHero />
   </div>
 </template>
 
 <script>
-import JumboTron from './components/JumboTron.vue'
+import MyTitle from './components/MyTitle.vue'
+import MyHero from './components/MyHero.vue'
 
 export default {
   name: 'App',
   components: {
-    JumboTron
+    MyTitle,
+    MyHero
   }
 }
 </script>
@@ -31,11 +33,5 @@ body{
 
 #app{
   text-align: center;
-}
-
-h1{
-  color: #FFA208;
-  padding: 30px;
-  font-size: 40px;
 }
 </style>
